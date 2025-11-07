@@ -1,6 +1,6 @@
 // .prettierrc.cjs
 module.exports = {
-  semi: true, // 使用分号
+  semi: false, // 使用分号
   singleQuote: true, // 使用单引号
   printWidth: 100, // 每行最大长度
   tabWidth: 2, // 缩进空格数

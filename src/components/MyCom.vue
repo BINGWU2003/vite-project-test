@@ -8,14 +8,14 @@
 
 <script setup lang="ts">
 const props = defineProps<{
-  name: string;
-}>();
+  name: string
+}>()
 
-console.log(props.name);
+console.log(props.name)
 
 const handleClick = () => {
-  console.log('Button clicked');
-};
+  console.log('Button clicked')
+}
 </script>
 
 <style lang="scss" scoped>
